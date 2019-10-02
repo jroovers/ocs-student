@@ -1,11 +1,11 @@
 import { strict as assert } from 'assert';
 import 'mocha';
-import {isLoading, inventory, tom, jessica } from "./1-fix-errors";
+import { isLoading, inventory, tom, jessica } from "./1-fix-errors";
 
 describe('Types: Exercise 1: Fix errors', () => {
 
-	it("exports are correct", function(){
-		assert.equal( isLoading, false,
+	it("exports are correct", function () {
+		assert.equal(isLoading, false,
 			"isLoading");
 
 		assert.deepEqual(
