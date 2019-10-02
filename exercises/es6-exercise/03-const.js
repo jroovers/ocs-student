@@ -2,10 +2,10 @@
  * 
  * Consider renaming to const convention
  * */
-var x = 1; 
+const x = 1;
 
-if( true ) {
-  var x = 2; // should raise a TypeError
+if (true) {
+  x = 2; // should raise a TypeError
 }
 
 console.log(x); // 1

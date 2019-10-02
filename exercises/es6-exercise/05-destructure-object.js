@@ -6,7 +6,9 @@ var profile = {
   bday: new Date('1979-01-02')
 }
 
-var fname = profile.fname;
-var lname = profile.lname;
+// var fname = profile.fname;
+// var lname = profile.lname;
+
+var { fname, lname } = profile;
 
 console.log(fname, lname); // Ryan Cromwell

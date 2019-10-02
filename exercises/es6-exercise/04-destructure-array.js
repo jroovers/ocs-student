@@ -3,7 +3,9 @@
  * */
 var values = [1, 2, 3, 4];
 
-var first = values[0];
-var third = values[2];
+// var first = values[0];
+// var third = values[2];
+
+let [first, , third] = values
 
 console.log(first, third); // 1 3

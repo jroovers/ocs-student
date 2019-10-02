@@ -9,6 +9,7 @@ var profile = {
   }
 }
 
-var twitter = profile.social.twitter;
+// var twitter = profile.social.twitter;console.log(x); // 1
 
+var { social: { twitter } } = profile
 console.log(twitter); // https://twitter.com/hearsparkbox
