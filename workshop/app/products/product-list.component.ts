@@ -6,6 +6,9 @@ import { Component } from "@angular/core";
 })
 export class ProductListComponent {
     pageTitle: string = 'Product List';
+    imageWidth: number = 50;
+    imageMargin: number = 2;
+    showImage: boolean = false;
     products: any[] = [
         {
             "productId": 1,
@@ -30,4 +33,9 @@ export class ProductListComponent {
                 "https://openclipart.org/image/300px/svg_to_png/213924/python1.png"
         }
     ];
+    listFilter: string = 'programming';
+
+    toggleImage(): void {
+        this.showImage = !this.showImage;
+    }
 }
